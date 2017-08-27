@@ -10,8 +10,10 @@ public class webDriver_Module1 {
 		
 		WebDriver F_Browser = new  FirefoxDriver();
 		F_Browser.get("http://perfmen.in");
+		String s = F_Browser.getPageSource();
 		
 		System.out.println(" hey mahesh....");
+		System.out.println(s);
 		
 	}
 
